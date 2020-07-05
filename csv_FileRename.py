@@ -15,7 +15,7 @@ with open(filename, 'r') as csvfile:
 
 # folder path goes here
 path = "your\folder\path\goes\here"
-folder = os.listdir("your\folder\path\goes\here")
+folder = os.listdir(path)
 
 nextrow = 0
 counter = 0
